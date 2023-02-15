@@ -72,7 +72,7 @@ export default async function main() {
       process.exit(1);
     }
 
-    execSync(`git commit -m "${aiCommitMessage}"`, {
+    execSync(`git commit -m "${commitBotMessage}"`, {
       stdio: 'inherit',
       encoding: 'utf8',
     });
@@ -84,6 +84,7 @@ export default async function main() {
 
 async function generateCommitMessage(prompt) {
   const payload = {
+    model: 'text-davinci-003',
     prompt,
     temperature: 0.7,
     top_p: 1,
