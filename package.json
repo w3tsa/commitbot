@@ -1,0 +1,41 @@
+{
+  "name": "commitbot",
+  "version": "1.0.0",
+  "description": "Say goodbye to writing Git commit messages with this AI-powered CLI. Let the tool do the work for you and never stress about crafting a commit message again. Simply run the command and receive an optimized message that accurately describes your changes. Save time and focus on what matters most - your code.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix --ext .js, ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3tsa/commitbot.git"
+  },
+  "keywords": [
+    "ai",
+    "git",
+    "commit"
+  ],
+  "author": "Tanveer Mohammad Sayem (tanveersayem@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w3tsa/commitbot/issues"
+  },
+  "homepage": "https://github.com/w3tsa/commitbot#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}
