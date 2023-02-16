@@ -28,7 +28,6 @@
   "homepage": "https://github.com/w3tsa/commitbot#readme",
   "dependencies": {
     "chalk": "^5.2.0",
-    "dotenv": "^16.0.3",
     "inquirer": "^9.1.4",
     "node-fetch": "^3.3.0"
   },
