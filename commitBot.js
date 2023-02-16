@@ -9,7 +9,7 @@ dotenv.config();
 const OPENAI_KEY = process.env.OPENAI_KEY ?? process.env.OPENAI_KEY;
 
 export default async function main() {
-  console.log(chalk.white('white') + chalk.green('😃 Welcome to Commitbot'));
+  console.log(chalk.green('🤖 Welcome to Commitbot'));
   if (!OPENAI_KEY) {
     console.error(
       chalk.white(
