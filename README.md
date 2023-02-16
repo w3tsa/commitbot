@@ -4,7 +4,7 @@
     <h1 align="center">Commit Bot</h1>
   </div>
 	<p>Say goodbye to writing Git commit messages with this AI-powered CLI. Let the tool do the work for you and never stress about crafting a commit message again. Simply run the command and receive an optimized message that accurately describes your changes. Save time and focus on what matters most - your code.</p>
-	<a href="https://www.npmjs.com/package/commitbot"><img src="https://img.shields.io/npm/v/commitbot" alt="Current version"></a>
+	<a href="https://www.npmjs.com/package/@w3tsadev/commitbot"><img src="https://img.shields.io/npm/v/@w3tsadev/commitbot" alt="Current version"></a>
   <a href="https://twitter.com/Tanveersayem">
     <img src="https://img.shields.io/twitter/follow/Tanveersayem?style=flat&label=Tanveersayem&logo=twitter&color=0bf&logoColor=fff" alt="Tanveer Twitter follower count" />
   </a>
