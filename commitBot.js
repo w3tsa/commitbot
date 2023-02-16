@@ -4,7 +4,7 @@ import inquirer from 'inquirer';
 import fetch from 'node-fetch';
 import * as dotenv from 'dotenv';
 
-dotenv.config();
+// dotenv.config();
 
 const OPENAI_KEY = process.env.OPENAI_KEY ?? process.env.OPENAI_KEY;
 
