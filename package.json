@@ -1,6 +1,6 @@
 {
   "name": "@w3tsadev/commitbot",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Say goodbye to writing Git commit messages with this AI-powered CLI. Let the tool do the work for you and never stress about crafting a commit message again. Simply run the command and receive an optimized message that accurately describes your changes. Save time and focus on what matters most - your code.",
   "main": "index.js",
   "bin": {
