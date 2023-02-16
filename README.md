@@ -1,6 +1,6 @@
 <div align="center">
   <div>
-    <img src=".github/screenshot.png" alt="Commit Bot"/>
+    <img src=".github/screenshot.png" alt="@w3tsadev/Commit Bot"/>
     <h1 align="center">Commit Bot</h1>
   </div>
 	<p>Say goodbye to writing Git commit messages with this AI-powered CLI. Let the tool do the work for you and never stress about crafting a commit message again. Simply run the command and receive an optimized message that accurately describes your changes. Save time and focus on what matters most - your code.</p>
@@ -16,12 +16,12 @@
 
 Simply install the tool with npm, set your [OpenAI key](https://openai.com/api/) and add it as an env variable with the two commands below.
 
-1. `npm install -g commitbot`
+1. `npm install -g @w3tsadev/commitbot`
 2. `export OPENAI_KEY=sk-xxxxxxxxxxxxxxxx`
 
 To ensure persistence, we recommend adding your OpenAI key as an environment variable in your `.zshrc` or `.bashrc` on line #2 file. Once configured, generating a commit message is as easy as running the `commitbot` command.
 
-> Note: If you get a EACCESS error on mac/linux when running the first command, try running it with `sudo npm install -g commitbot`.
+> Note: If you get a EACCESS error on mac/linux when running the first command, try running it with `sudo npm install -g @w3tsadev/commitbo`.
 
 ## How it works
 
