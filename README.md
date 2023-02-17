@@ -21,7 +21,7 @@ Simply install the tool with npm, set your [OpenAI key](https://openai.com/api/)
 
 To ensure persistence, we recommend adding your OpenAI key as an environment variable in your `.zshrc` or `.bashrc` on line #2 file. Once configured, generating a commit message is as easy as running the `commitbot` command.
 
-> Note: If you get a EACCESS error on mac/linux when running the first command, try running it with `sudo npm install -g @w3tsadev/commitbo`.
+> Note: If you get a EACCESS error on mac/linux when running the first command, try running it with `sudo npm install -g @w3tsadev/commitbot`.
 
 ## How it works
 
